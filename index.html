@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+        #container{
+            height:500px;
+            border:dashed 3px red;
+            margin-bottom: 50px;
+
+
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            justify-content: space-evenly;
+            flex-direction: column;
+
+        }
+        .item{
+            width: 100px;
+            height:100px;
+            border: solid 3px blue;
+
+        }
+        .item.um{
+            background-color: aqua;
+        }
+        .item.dois{
+            background-color: rgb(45, 204, 143);
+        }
+        .item.tres{
+            background-color: rgb(24, 170, 97);
+        }
+
+
+
+
+        #atividade{
+            background-color: cornflowerblue;
+            height:500px;
+            display:flex;
+        }
+        #caixaum{
+            height:400px;
+            background-color: coral;
+        }
+        #caixadois{
+            height:200px;
+            background-color:lightseagreen
+        }
+        .caixinhaesquerda{
+            height: 50px;
+            background-color: brown;
+        }
+        .caixinhadireita{
+            height: 50px;
+            background-color: brown;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <div id="container">
+        <div class="item um">item1</div>
+        <div class="item dois">item2</div>
+        <div class="item tres">item3</div>
+    </div>
+
+
+
+    <div id="atividade">
+        <div id="caixaum"> caixa
+            <div class="caixinhaesquerda um">caixinha</div>
+            <div class="caixinhaesquerda dois">caixinha</div>
+            <div class="caixinhaesquerda tres">caixinha</div>
+        </div>
+
+
+        <div id="caixadois"> caixa
+            <div class="caixinhadireita quatro">caixinha</div>
+            <div class="caixinhadireita cinco">caixinha</div>
+            <div class="caixinhadireita seis">caixinha</div>
+        </div>
+    </div>
+</body>
+</html>
